@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "464872ab-2937-46ed-9a41-e385637129f5",
+		"name": "Jugueteria Cosmica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27816905"
+	},
+	"item": [
+		{
+			"name": "getProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/64c6de154cd4862287a79c6a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"64c6de154cd4862287a79c6a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postProducts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"image\": \"https://live.staticflickr.com/65535/53075465151_8985689309_n.jpg\",\r\n        \"name\": \"Sony Playstation 5\",\r\n        \"price\": \"$581.500,00\",\r\n        \"description\": \"Estás listo para llevar tu experiencia de juego al siguiente nivel? No busques más allá de la PlayStation 5. Con su potente hardware, gráficos impresionantes e innovadores características, esta consola está destinada a revolucionar la forma en que juegas\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "putProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"image\": \"https://live.staticflickr.com/65535/53075465151_8985689309_n.jpg\",\r\n        \"name\": \"Sony Playstation 5\",\r\n        \"price\": \"$581.500,00\",\r\n        \"description\": \"Estás listo para llevar tu experiencia de juego al siguiente nivel? No busques más allá de la PlayStation 5. Con su potente hardware, gráficos impresionantes e innovadores características, esta consola está destinada a revolucionar la forma en que juegas\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n        \"image\": \"https://live.staticflickr.com/65535/53075465151_8985689309_n.jpg\",\r\n        \"name\": \"Sony Playstation 5\",\r\n        \"price\": \"$581.500,00\",\r\n        \"description\": \"Estás listo para llevar tu experiencia de juego al siguiente nivel? No busques más allá de la PlayStation 5. Con su potente hardware, gráficos impresionantes e innovadores características, esta consola está destinada a revolucionar la forma en que juegas\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products/64c92f2636eef47c37155f56",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"64c92f2636eef47c37155f56"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
